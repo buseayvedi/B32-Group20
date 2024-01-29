@@ -5,7 +5,7 @@ public class Test {
     public static void main(String[] args) {
 
         identify(6);
-        identify(5);
+        identify(15);
 
     }
 
