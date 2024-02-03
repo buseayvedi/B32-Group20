@@ -2,13 +2,12 @@ package viktoriia_viktoriia.week01;
 
 public class OddOrEven {
 
-        /*
+/*
     Write a method which can identifies given is even or odd:
     EX:
     identify(5) -> "Odd"
     identify(6) -> "Even"
-     */
-
+*/
 
     public static String oddOrEven(int number) {
 
@@ -23,4 +22,7 @@ public class OddOrEven {
         return result;
     }
 
+
 }
+
+
