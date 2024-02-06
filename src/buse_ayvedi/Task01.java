@@ -1,7 +1,7 @@
 package buse_ayvedi;
 
 public class Task01 {
-    public static void main(String[] args) {
+    public static void main(String args[]) {
         System.out.println(oddOrEven(5));
         System.out.println(oddOrEven(6));
     }
@@ -10,8 +10,8 @@ public class Task01 {
             return "even";
         }else{
             return "odd";
+
         }
-        //add space
     }
 
 }
