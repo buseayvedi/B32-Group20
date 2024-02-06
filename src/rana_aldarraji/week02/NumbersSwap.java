@@ -17,8 +17,6 @@ public class NumbersSwap {
         System.out.println("a = " + a);
         System.out.println("b = " + b);
 
-
-
     }
 }
 /*
