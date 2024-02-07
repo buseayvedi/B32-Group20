@@ -3,7 +3,6 @@ package michael.week_1;
 public class DivideWithoutDivisionOperator {
     public static void main(String[] args) {
         divideWithoutDivisionOperatorMethod(20,2);
-
     }
 
     public static void divideWithoutDivisionOperatorMethod(int num1, int num2) {

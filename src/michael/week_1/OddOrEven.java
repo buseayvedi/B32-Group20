@@ -11,5 +11,4 @@ public class OddOrEven {
     public  static  String  identifyOddEven( int  n ) {
         return  n%2==0 ? "Even" : "Odd" ;
     }
-
 }

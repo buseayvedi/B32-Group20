@@ -7,7 +7,6 @@ public class Finra {
         FINRA_1();
         FINRA_2();
         FINRA_3();
-
     }
 
     public static void FINRA_1() {
