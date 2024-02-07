@@ -3,6 +3,7 @@ package rana_aldarraji.week02;
 public class DivisibleNumbers {
     public static void main(String[] args) {
 
+
         System.out.print("Divisible by 15: ");
         for (int i = 1; i <= 100; i++) {
             if (i % 15 == 0) {
