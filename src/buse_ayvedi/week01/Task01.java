@@ -1,4 +1,4 @@
-package buse_ayvedi;
+package buse_ayvedi.week01;
 
 public class Task01 {
 

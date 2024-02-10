@@ -1,4 +1,4 @@
-package buse_ayvedi;
+package buse_ayvedi.week02;
 
 public class T02_ConsecutiveNumbers {
 
