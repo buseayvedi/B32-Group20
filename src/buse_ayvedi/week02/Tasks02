@@ -1,0 +1,49 @@
+
+1.Numbers -- Swap Numbers.
+Swap two variable values without using а third variable.
+
+------------------------------------------------------------------------------------
+
+2.Numbers -- Divisible by 3, 5, 15
+
+    Write а program that can print the numbers between 1 ~ 100 that can bе divisible by 3, 5, and 15.
+
+    If the number can be divisible by 3, 5 and 15, then it should only be displayed in Divisible By 15' section.
+    If the number can be divisible by 3 but cannot be divisible by 15, then it should only be displayed in Divisible By 3' section.
+    If the number can be divisible by 5 but cannot be divisible by 15, then it should only be displayed in Divisible By 5' section.
+
+    OutPut:
+
+    Divisible Ву 15 15 30 45 60 75 90
+    Divisible Ву 5 510 20 25 35 40 50 55 65 70 80 85 95 100
+    Divisible Ву 3 3 6 9 12 18 2124 27 33 36 39 42 48 5154 57 63 66 69 72 78 81 84 87 93 96 99
+
+------------------------------------------------------------------------------------
+3.Numbers -- print consecutive numbers
+
+    Write а function:
+    that, given а positive integer N, prints the consecutive numbers from 1 to N, each оп а separate line.
+    However, апу number divisible Ьу 2, 3 or 5 should Ье replaced Ьу the word Codility, Test or Coders respectively.
+    lf а number is divisible bу more than оnе of the numbers: 2,3 or 5, it should bе replaced Ьу а concatenation of the respective words Codility,
+    Test and Coders in this given order. For example, numbers divisible Ьу both 2 and 3 should bе replace Ьу CodilityTest апd
+    numbers divisible bу all three numbers: 2,3 апd 5, should bе replaced bу CodilityTestCoders.
+
+    For example, here is the output for N = 24:
+
+    1
+    Codility
+    Test
+    Codility
+    Coders
+    CodilityTest
+    7
+    Codility
+    Test
+    CodilityCoders
+    11
+    CodilityTest
+    13
+    Codility
+    TestCoders
+    Codility
+    17
