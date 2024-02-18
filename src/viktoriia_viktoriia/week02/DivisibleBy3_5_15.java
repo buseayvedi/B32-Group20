@@ -3,8 +3,7 @@ package viktoriia_viktoriia.week02;
 public class DivisibleBy3_5_15 {
 
 /*
-    2.Numbers -- DivisiЫe lby 3, 5, 15
-
+ 2.Numbers -- Divisible lby 3, 5, 15
 Write а program that can print the numbers between 1 ~ 100 that can Ье divisiЫe Ьу 3, 5, and 15.
 
 If the number can be divisible by 3, 5 and 15, then it should only be displayed in Divisible By 15' section.
@@ -22,7 +21,6 @@ Divisible Ву 3 3 6 9 12 18 2124 27 33 36 39 42 48 5154 57 63 66 69 72 78 81 84
 
         String result = "";
         result+="Divisible by 15 ";
-
         for (int i = 1; i <= 100; i++) {
             if (i % 15 == 0) {
                 result += i + " ";
