@@ -1,20 +1,22 @@
 package rana_aldarraji.week03;
+
 import java.util.Scanner;
 
 public class ReverseNegativeNumber {
     public static int reverseNegative(int num) {
-        if (num >= 0) {
-            System.err.println("Number cannot be equal or bigger than zero!");
+
+        int reversed = 0;
+        //1. By Using algorithm
+        while (num < 0) {
+            reversed = reversed * 10 + num % 10;
+            num = num / 10;
         }
-
-        return num * -1;
+        return reversed;
     }
-
 
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
-
         System.out.println("Enter a number: ");
         int num = scan.nextInt();
 

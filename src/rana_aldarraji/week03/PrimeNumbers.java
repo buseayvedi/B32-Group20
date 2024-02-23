@@ -4,18 +4,6 @@ import java.util.Scanner;
 
 public class PrimeNumbers {
 
-
-    public static void main(String[] args) {
-
-        Scanner scan = new Scanner(System.in);
-
-
-        System.out.println("Enter a number: ");
-        System.out.println("isPrime: " + isPrime(scan.nextInt()));
-
-    }
-
-
     public static boolean isPrime(int num) {
         if (num <= 1) {
             return false;
@@ -28,8 +16,19 @@ public class PrimeNumbers {
         }
         return true;
     }
-}
 
+
+    public static void main(String[] args) {
+
+        Scanner scan = new Scanner(System.in);
+
+
+        System.out.println("Enter a number: ");
+        System.out.println("isPrime: " + isPrime(scan.nextInt()));
+
+    }
+
+}
 
 /*
 Write a method that can check if a number is prime or not
