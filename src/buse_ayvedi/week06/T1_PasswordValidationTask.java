@@ -1,6 +1,5 @@
 package buse_ayvedi.week06;
 
-import java.util.Collections;
 
 public class T1_PasswordValidationTask {
 
