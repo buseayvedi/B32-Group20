@@ -8,13 +8,18 @@ public class T1_PasswordValidationTask {
 
         System.out.println("passwordValidation(\"123dsjsklskd\") = " + passwordValidation("123"));
 
+        System.out.println("passwordValidation(\"1234AAAA\") = " + passwordValidation("1234AAAA"));
+
+        System.out.println("passwordValidation(\"dfjlskjf1232AAA!!!\") = " + passwordValidation("dfjlskjf1232AAA!!!"));
+
+        System.out.println("passwordValidation(\"lds saljdk\") = " + passwordValidation("lds saljdk"));
+
     }
     public static boolean passwordValidation(String password){
-        boolean passwordValid = true;
+
         if (password.length()<6 || password.contains(" ")){
-            passwordValid = false;
             System.err.println("Password MUST be at least have 6 characters and should not contain space");
-            System.exit(1);
+            return false;
         }
         int numberUpperCase = 0;
         int numberLowerCase = 0 ;
@@ -35,24 +40,22 @@ public class T1_PasswordValidationTask {
             }
         }
         if (numberUpperCase == 0){
-            passwordValid = false;
             System.err.println("PassWord should at least contain one upper case letter");
-            System.exit(1);
+            return false;
         }
         if (numberLowerCase == 0 ) {
-            passwordValid = false;
             System.err.println("PassWord should at least contain one lowercase letter");
-            System.exit(1);
+            return false;
+
         }
         if (numberOfSpeacialChar == 0){
-            passwordValid = false;
             System.err.println("Password should at least contain one special characters");
-            System.exit(1);
+            return false;
         }
         if (numberOfDigit == 0){
-            passwordValid = false;
             System.err.println("Password should at least contain a digit");
-            System.exit(1);
+            return false;
+
         }
 
        return true;
