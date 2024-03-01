@@ -7,6 +7,10 @@ public class String_Reverse {
 
     public static void main(String[] args) {
 
+        System.out.println("reverseString(\"ABCD\") = " + reverseString("ABCD"));
+        System.out.println("reverseString(\"ABCD\") = " + reverseString2("ABCD"));
+        System.out.println("reverseString(\"ABCD\") = " + reverseString3("ABCD"));
+
     }
     public static String reverseString(String str){
 
@@ -33,6 +37,7 @@ public class String_Reverse {
         for (int i = list.size()-1 ; i >=0 ; i--){
             result += list.get(i);
         }
+        return result;
     }
 
 }
