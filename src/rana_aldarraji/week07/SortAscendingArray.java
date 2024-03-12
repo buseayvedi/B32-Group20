@@ -1,8 +1,6 @@
 package rana_aldarraji.week07;
 
-import java.util.Scanner;
-
-public class SortAscending {
+public class SortAscendingArray {
 
     public static void main(String[] args) {
 
