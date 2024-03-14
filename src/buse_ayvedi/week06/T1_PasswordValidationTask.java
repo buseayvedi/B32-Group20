@@ -5,6 +5,15 @@ public class T1_PasswordValidationTask {
 
     public static void main(String[] args) {
 
+//<<<<<<< buse
+//        System.out.println("passwordValidation= " + passwordValidation("123"));
+
+        System.out.println("passwordValidation(\"1234AAAA\") = " + passwordValidation("1234AAAA"));
+
+//        System.out.println("passwordValidation(\"dfjlskjf1232AAA!!!\") = " + passwordValidation("dfjlskjf1232AAA!!!"));
+//
+//        System.out.println("passwordValidation(\"lds saljdk\") = " + passwordValidation("lds saljdk"));
+//=======
         System.out.println("passwordValidation(\"123dsjsklskd\") = " + passwordValidation("123"));
 
         System.out.println("passwordValidation(\"1234AAAA\") = " + passwordValidation("1234AAAA"));
@@ -12,6 +21,7 @@ public class T1_PasswordValidationTask {
         System.out.println("passwordValidation(\"dfjlskjf1232AAA!!!\") = " + passwordValidation("dfjlskjf1232AAA!!!"));
 
         System.out.println("passwordValidation(\"lds saljdk\") = " + passwordValidation("lds saljdk"));
+//>>>>>>> master
 
     }
     public static boolean passwordValidation(String password){
