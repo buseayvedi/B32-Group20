@@ -2,8 +2,6 @@ package buse_ayvedi.week06;
 
 import java.util.*;
 
-import static java.util.Arrays.*;
-
 public class T2_FindMaxInArray {
     public static void main(String[] args) {
 
