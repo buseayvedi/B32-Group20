@@ -1,12 +1,16 @@
 package buse_ayvedi.week7;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
 
 public class T3_SortDescending {
 
     public static void main(String[] args) {
         int[] arr = {10,20,7, 8, 90};
-        System.out.println(Arrays.toString(descendingOrder(arr)));
+//        System.out.println(Arrays.toString(descendingOrder(arr)));
+        System.out.println(Arrays.toString(descendingOrder2(arr)));
 
     }
 
@@ -26,6 +30,35 @@ public class T3_SortDescending {
 
         }
         return arr;
+
+    }
+
+
+    public static int[] descendingOrder2(int[] arr){
+        ArrayList<Integer> list = new ArrayList<>();
+        for (int each : arr){
+            list.add(each);
+        }
+
+        int[] arr2 = new int[arr.length];
+
+        for (int i = 0; i < arr.length ; i++){
+            arr2[i]= findMax(list);
+            list.remove((Integer) arr2[i] );
+
+        }
+
+        return arr2;
+
+    }
+    public static int findMax(ArrayList<Integer> list){
+        int max = list.get(0);
+        for (int i = 0; i < list.size(); i++){
+            if (list.get(i)>max){
+                max = list.get(i);
+            }
+        }
+        return max;
 
     }
 }

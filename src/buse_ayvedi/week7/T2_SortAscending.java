@@ -13,6 +13,7 @@ public class T2_SortAscending {
     }
 
     public static int[] sortAscending(int[] arr){
+
         Integer[] arr2 = new Integer[arr.length];
         for (int i = 0; i < arr.length ; i++){
             arr2[i] = arr[i];
