@@ -21,7 +21,7 @@ public class SortArrayDecending {
 
 
     public static int[] sortDescending_1(int[] a) {
-        ArrayList<Integer> list=new ArrayList<Integer>();
+        ArrayList<Integer> list=new ArrayList<>();
         for(int each: a)
             list.add(each);
 

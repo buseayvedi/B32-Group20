@@ -1,5 +1,6 @@
 package michael.week_7;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class FindMinimum_Array {
@@ -33,5 +34,11 @@ public class FindMinimum_Array {
         return  n [ 0 ];
     }
 
+    public static int findMin(ArrayList<Integer> a) {
+        int min =Integer.MAX_VALUE;
+        for(int each: a)
+            min = Math.min(min, each);
+        return min;
+    }
 
 }

@@ -20,12 +20,11 @@ public class SortArrayAscending {
         int[] sortedArrayAsc_1 = sort_1(arr);
         System.out.println("sortedArray_1 = " + Arrays.toString(sortedArrayAsc_1));
 
-
-
     }
 
+
     public static int[] sort_1(int[] a) {
-        ArrayList<Integer> list=new ArrayList<Integer>();
+        ArrayList<Integer> list=new ArrayList<>();
         for(int each: a)
             list.add(each);
 
@@ -35,6 +34,8 @@ public class SortArrayAscending {
         }
         return a;
     }
+
+
     public static int findMin(ArrayList<Integer> a) {
         int min =Integer.MAX_VALUE;
         for(int each: a)
